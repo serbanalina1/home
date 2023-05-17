@@ -1,0 +1,99 @@
+/* Centers text and changes font*/ 
+h1, h2, h3, h4 
+{
+	text-align:center;
+	font-family: "garamond"
+}
+
+/* changes background colour*/
+body 
+{
+	background-color:#ffdbe0;
+}
+
+/*centers logo at top*/
+.center
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*centers text*/
+p
+{
+	text-align:center;
+	font-family: "garamond";
+	font-size: 20px;
+}
+
+/*aligns 3 images nicely on page*/
+.column 
+{
+	float: left;
+	width: 32.5%;
+	padding: 5px;
+}
+
+.row::after 
+{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/*centers list and aligns bullets in one straight line*/
+.list
+{
+	display: inline-block;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+/*changes font of figure caption and centers caption with figure*/
+figcaption
+{
+	font-family: "garamond";
+	text-align:center;
+}
+
+/*adds highlight to links on main page*/
+.highlight
+{
+	text-align: center;
+	display: block;
+	font-family: "garamond";
+	padding: .25em 0;
+	background: #fc94af;
+	color: #ffffff;
+}
+
+/*The following is for the top bar*/
+
+/* Add a black background color to the top navigation */
+.topnav 
+{
+  background-color: #fc94af;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "garamond";
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover 
+{
+  background-color: #fb6080;
+  color: pink;
+}
+
+  
